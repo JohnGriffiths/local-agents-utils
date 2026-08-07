@@ -60,8 +60,8 @@ docker run -it --rm \
   jg-agent-env /bin/bash -c "
     echo 'Checking repository status...';
     
-    rm -rf abw_clonetest
-    git clone git@github.com:johngriffiths/abw abw_clonetest
+    rm -rf local-agents-utils
+    git clone git@github.com:johngriffiths/local-agents-utils 
     
     exec /bin/bash
     
